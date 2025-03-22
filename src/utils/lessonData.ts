@@ -1,4 +1,3 @@
-
 export interface Lesson {
   id: string;
   title: string;
@@ -128,8 +127,8 @@ export const lessons: Lesson[] = [
         {
           id: 'intro',
           type: 'text',
-          content: 'In this lesson, you'll learn key phrases that will help you navigate everyday situations.',
-          translation: 'In this lesson, you'll learn key phrases that will help you navigate everyday situations.'
+          content: 'In this lesson, you\'ll learn key phrases that will help you navigate everyday situations.',
+          translation: 'In this lesson, you\'ll learn key phrases that will help you navigate everyday situations.'
         },
         {
           id: 'phrase-1',
@@ -141,15 +140,15 @@ export const lessons: Lesson[] = [
         {
           id: 'phrase-2',
           type: 'audio',
-          content: 'Ça va bien, merci. (I'm doing well, thank you.)',
-          translation: 'I'm doing well, thank you. - A standard response to "Comment ça va?"',
+          content: 'Ça va bien, merci. (I\'m doing well, thank you.)',
+          translation: 'I\'m doing well, thank you. - A standard response to "Comment ça va?"',
           audioUrl: 'https://example.com/audio/ca-va-bien.mp3'
         },
         {
           id: 'phrase-3',
           type: 'audio',
-          content: 'S'il vous plaît. (Please. - formal)',
-          translation: 'Please. - Used in formal situations or with people you don't know well.',
+          content: 'S\'il vous plaît. (Please. - formal)',
+          translation: 'Please. - Used in formal situations or with people you don\'t know well.',
           audioUrl: 'https://example.com/audio/sil-vous-plait.mp3'
         },
         {
